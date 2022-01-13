@@ -16,4 +16,6 @@ import { Component } from '@angular/core';
   `]
   //styleUrls: ['./personas.component.css']
 })
-export class PersonasComponent {}
+export class PersonasComponent {
+  deshabilitar = false;
+}
