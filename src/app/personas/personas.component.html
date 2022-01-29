@@ -9,6 +9,10 @@
       </button>
       <p>{{mensaje}}</p>
       <app-persona></app-persona>
+      <label for="">Titulo Persona</label>
+      <input type="text" class="form-control" 
+      (input)="modificarTitulo($event)">
+      {{titulo}}
       <!-- <app-persona></app-persona> -->
     </div>
   </div>
